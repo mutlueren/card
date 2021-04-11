@@ -15,7 +15,6 @@ public class CreditCardValidatingServiceTests {
     @Test
     void is_credit_card_valid() throws Exception {
         boolean valid = creditCardValidatingService.isCardValid("1111111111111111");
-        assertNotNull(valid);
         assertFalse(valid);
     }
 }
